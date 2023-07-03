@@ -1,0 +1,60 @@
+.grid{
+    display: grid;
+    padding: 10px;
+    grid-gap: 10px;
+    background-color: rgb(139, 139, 139);
+    grid-template-areas: 
+    'a b c i'
+    'e e c d'
+    'f f g d'
+    'f f h h';
+    height: 1000px;
+}
+.grid div{
+    border-radius: 5px;
+}
+
+.a{
+grid-area: a;
+background-size: cover;
+background-image: url(img/2.jpg);}
+
+.b{
+grid-area: b;
+background-size: cover;
+background-image: url(img/1.jpg)}
+
+.c{
+grid-area: c;
+background-size: cover;
+background-image: url(img/3.jpg);}
+
+.d{
+grid-area: d;
+background-size: cover;
+background-image: url(img/4.jpg);}
+
+.e{
+grid-area: e;
+background-size: cover;
+background-image: url(img/7.jpg);}
+
+.f{
+grid-area: f;
+background-size: cover;
+background-image: url(img/5.jpg);}
+
+.g{
+grid-area: g;
+background-size: cover;
+background-image: url(img/6.jpg);}
+
+.h{
+grid-area: h;
+background-size: cover;
+background-image: url(img/8.jpg);}
+
+.i{
+grid-area: i;
+background-size: cover;
+background-image: url(img/9.jpg);}
